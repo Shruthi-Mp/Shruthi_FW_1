@@ -46,7 +46,6 @@ public class WDCommonLib
 	{
 		//String mainId = BaseClass.driver.getWindowHandle();
 		BaseClass.driver.switchTo().window(mainId);
-		
 	}
 	public void acceptAlert()
 	{

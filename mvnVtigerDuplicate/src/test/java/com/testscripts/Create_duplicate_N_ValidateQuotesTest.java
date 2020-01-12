@@ -44,6 +44,7 @@ public class Create_duplicate_N_ValidateQuotesTest extends BaseClass
 		QuotesPage_Pom qp=PageFactory.initElements(BaseClass.driver, QuotesPage_Pom.class);
 		CreateNewQuotesPage_Pom cnp = PageFactory.initElements(BaseClass.driver, CreateNewQuotesPage_Pom.class);
 		QuoteInformationPage_Pom qinfo = PageFactory.initElements(BaseClass.driver, QuoteInformationPage_Pom.class);
+		System.out.println("********************testing jenkins************************8");
 		
 		Random r=new Random();
 		int num=r.nextInt();

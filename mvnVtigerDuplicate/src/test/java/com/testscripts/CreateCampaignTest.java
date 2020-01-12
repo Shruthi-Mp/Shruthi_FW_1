@@ -29,6 +29,7 @@ public class CreateCampaignTest {
 		driver.findElement(By.name("user_name")).sendKeys(f.fetchDataformProperty("usn"));
 		driver.findElement(By.name("user_password")).sendKeys(f.fetchDataformProperty("pwd"));
 		driver.findElement(By.id("submitButton")).click();
+		System.out.println("********************testing jenkins************************8");
 		//Mouse Action
 		WebElement more= driver.findElement(By.linkText("More"));
 		Actions act= new Actions(driver);			
